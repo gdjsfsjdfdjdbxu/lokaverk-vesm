@@ -6,7 +6,7 @@
  - 2x esp32-s3
  - raspberry pi
  - mp3 spilari 
- - oled screen
+ - oled screen (2.42 inch)
  - button
  - 2x box (25cm x 25cm x 20cm minimum)
  

@@ -9,10 +9,10 @@ config["ssid"] = "TskoliVESM"
 config["wifi_pw"] = "Fallegurhestur"
 
 # MQTT þjónninn
-config["server"] = "broker.hivemq.com" # eða broker.emqx.io (þarf að vera það sama á sendir og móttakara)
+config["server"] = "10.201.48.125" # eða broker.emqx.io (þarf að vera það sama á sendir og móttakara)
 
 # TOPICS
-TOPIC = "2305kynning" # Settu fyrstu fjóra stafinu úr kennitölunni þinni stað í X-anna
+TOPIC = "gdjsfsjdfdjdbxu" # Settu fyrstu fjóra stafinu úr kennitölunni þinni stað í X-anna
 
 async def sendir(client):
     while True:

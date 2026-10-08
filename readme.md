@@ -13,6 +13,9 @@ Verkefnið okkar var að búa til IoT-vekjaraklukku sem hjálpar notanda að vak
 
 ## Takkinn:
 
+<img width="250" height="333" alt="958e581f-4cd3-4544-8683-dde376de127d-1" src="https://github.com/user-attachments/assets/60a4e34e-2d73-40e1-83ca-16f057cbdb6c" />
+<img width="250" height="333" alt="efed5fb9-73c0-4454-baa4-5a776c81d7a7" src="https://github.com/user-attachments/assets/8814140c-a229-4ece-955b-6555991050bc" />
+
 ## Efni og íhlutir:
  - 2 × esp32-s3
  - Raspberry Pi

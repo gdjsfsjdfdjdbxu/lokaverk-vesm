@@ -1,0 +1,8 @@
+config["ssid"] = "TskoliVESM"
+config["wifi_pw"] = "Fallegurhestur"
+config["server"] = "10.201.48.125" 
+config["queue_len"] = 5
+
+TOPIC = "gdjsfsjdfdjdbxu"
+config["user"] = "gd"
+config["password"] = "Pass1234"

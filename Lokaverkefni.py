@@ -3,8 +3,8 @@ import json
 from nicegui import ui
 from aiomqtt import Client
 
-MQTT_BROKER = "broker.hivemq.com"
-MQTT_TOPIC = "2305kynning"
+MQTT_BROKER = "10.201.48.125"
+MQTT_TOPIC = "gdjsfsjdfdjdbxu"
 
 vekjarar = []
 

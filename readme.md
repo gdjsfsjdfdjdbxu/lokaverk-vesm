@@ -20,7 +20,7 @@ Verkefnið okkar var að búa til IoT-vekjaraklukku sem hjálpar notanda að vak
  - 2 × box (25cm x 25cm x 20cm minimum)
  
 ## Flæðirit
-<img width="882" height="752" alt="Lokaverkefni_flæðirit" src="https://github.com/user-attachments/assets/3a141763-6da9-4fe3-8d63-89c74468b0e7" />
+<img width="882" height="752" alt="Lokaverkefni_flæðirit" src="https://github.com/user-attachments/assets/9310666e-520d-4e1d-9ac8-d86c008816c1" />
 
 
 ## Hönnun

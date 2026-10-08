@@ -31,3 +31,4 @@ Takkinn sem slekkur á vekjaranum á að vera  hinum megin í herberginu frá ve
 ## Kóðaskrár
 [SSD1309 kóðinn](ssd1309.py)
 [Takka kóðinn](takki.py)
+[Lokaverkefni.py](Lokaverkefni.py)

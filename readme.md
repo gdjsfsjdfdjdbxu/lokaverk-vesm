@@ -29,6 +29,6 @@ Takkinn sem slekkur á vekjaranum á að vera  hinum megin í herberginu frá ve
 ## 3d teikning 
 [Opna 3D STL teikningu](sjabox.stl)
 ## Kóðaskrár
-[SSD1309 kóðinn](ssd1309.py)
-[Takka kóðinn](takki.py)
-[Lokaverkefni.py](Lokaverkefni.py)
+- [SSD1309 kóðinn](https://github.com/gdjsfsjdfdjdbxu/lokaverk-vesm/blob/main/ssd1309.py)
+- [Takka kóðinn](https://github.com/gdjsfsjdfdjdbxu/lokaverk-vesm/blob/main/takki.py)
+- [Lokaverkefni.py](https://github.com/gdjsfsjdfdjdbxu/lokaverk-vesm/blob/main/Lokaverkefni.py)

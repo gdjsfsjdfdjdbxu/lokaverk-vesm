@@ -21,3 +21,6 @@ config["queue_len"] = 5
 TOPIC = "gdjsfsjdfdjdbxu"
 config["user"] = "gd"
 config["password"] = "Pass1234"
+## Flæðirit
+
+![Flæðirit](flæðirit.png)

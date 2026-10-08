@@ -10,6 +10,7 @@ Takkinn sem slekkur á vekjaranum á að vera hinum megin í herberginu frá vek
 ## Ljósmyndir:
 
 ## Vekjaraklukkan
+
 ## Takkinn
 
 ## Efni og íhlutir:

@@ -1,3 +1,5 @@
+from mqtt_as import MQTTClient, config
+
 config["ssid"] = "TskoliVESM"
 config["wifi_pw"] = "Fallegurhestur"
 config["server"] = "10.201.48.125" 

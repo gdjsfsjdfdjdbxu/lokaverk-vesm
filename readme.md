@@ -1,5 +1,7 @@
 # VESM 3. Lokaverkefni:
 
+Daníel Freyr, Einar og Jón
+
 ## Skýrsla 
 Verkefnið okkar var að búa til IoT-vekjaraklukku sem hjálpar notanda að vakna. Hægt er að stilla vekjaraklukkuna á ákveðinn tíma og velja hvaða daga hún á að hringja. Þegar vekjarinn fer í gang spilar hátalarinn hljóð til að vekja notandann. Til að slökkva á vekjaranum er sérstakur takki staðsettur hinum megin í herberginu frá vekjaraklukkuni. Notandinn þarf að fara fram úr rúminu og ganga að takkanum að slökkva á vekjaranum. Þetta gerir kerfið gagnlegra fyrir fólk sem á erfitt með að vakna. 
 

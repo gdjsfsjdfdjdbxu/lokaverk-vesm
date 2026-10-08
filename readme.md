@@ -1,9 +1,7 @@
 # VESM 3. Lokaverkefni:
 
 ## Skýrsla 
-Verkefnið okkar var að búa til IoT-vekjaraklukku sem hjálpar notanda að vakna. Vekjaraklukkan er með hátalara sem spilar hátt hljóð þegar vekjarinn fer í gang.
-
-Takkinn sem slekkur á vekjaranum á að vera hinum megin í herberginu frá vekjaraklukkunni. Notandinn þarf því að fara úr rúminu og fara að takkanum til að slökkva á vekjaranum.
+Verkefnið okkar var að búa til IoT-vekjaraklukku sem hjálpar notanda að vakna. Hægt er að stilla vekjaraklukkuna á ákveðinn tíma og velja hvaða daga hún á að hringja. Þegar vekjarinn fer í gang spilar hátalari hátt hljóð til að vekja notandann. Til að slökkva á vekjaranum er sérstakur takki staðsettur hinum megin í herberginu frá vekjaraklukkuni. Notandinn þarf að fara fram úr rúminu og ganga að takkanum að slökkva á vekjaranum. Þetta gerir kerfið gagnlegra fyrir fólk sem á erfitt með að vakna. 
 
 ## Myndband af virkni
 

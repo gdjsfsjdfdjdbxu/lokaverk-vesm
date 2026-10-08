@@ -21,6 +21,7 @@ Takkinn sem slekkur á vekjaranum á að vera hinum megin í herberginu frá vek
  - 2 × box (25cm x 25cm x 20cm minimum)
  
 ## Flæðirit
+<img width="1062" height="752" alt="Lokaverkefni_flæðirit" src="https://github.com/user-attachments/assets/30f8ac44-7978-4424-912a-3c4da2822d0c" />
 
 
 ## Hönnun

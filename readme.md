@@ -7,7 +7,7 @@ Takkinn sem slekkur á vekjaranum á að vera hinum megin í herberginu frá vek
 
 ## Myndband af virkni
 
-## Ljósmyndir
+# Ljósmyndir:
 
 ## Vekjaraklukkan
 ## Takkinn

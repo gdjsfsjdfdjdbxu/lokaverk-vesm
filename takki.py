@@ -4,15 +4,14 @@ import asyncio
 
 takki = Pin(14, Pin.IN, Pin.PULL_DOWN)
 
-# WIFI stillingar
 config["ssid"] = "TskoliVESM"
 config["wifi_pw"] = "Fallegurhestur"
+config["server"] = "10.201.48.125" 
+config["queue_len"] = 5
 
-# MQTT þjónninn
-config["server"] = "10.201.48.125" # eða broker.emqx.io (þarf að vera það sama á sendir og móttakara)
-
-# TOPICS
-TOPIC = "gdjsfsjdfdjdbxu" # Settu fyrstu fjóra stafinu úr kennitölunni þinni stað í X-anna
+TOPIC = "gdjsfsjdfdjdbxu"
+config["user"] = "gd"
+config["password"] = "Pass1234"
 
 async def sendir(client):
     while True:

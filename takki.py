@@ -2,7 +2,7 @@ from machine import Pin, ADC
 from mqtt_as import MQTTClient, config
 import asyncio
 
-takki = ADC(Pin(1), atten=ADC.ATTN_11DB)
+takki = Pin(14, Pin.IN, Pin.PULL_DOWN)
 
 # WIFI stillingar
 config["ssid"] = "TskoliVESM"

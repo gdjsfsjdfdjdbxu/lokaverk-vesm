@@ -22,7 +22,8 @@ async def sendir(client):
         # Skilaboðin send
             await client.publish(TOPIC, skilabod)
         # Sendi á tveggja sekúnda fresti
-            await asyncio.sleep_ms(500)
+            while takki.value() == 1:
+                await asyncio.sleep_ms(20)
         await asyncio.sleep_ms(20)
         
 async def main(client):

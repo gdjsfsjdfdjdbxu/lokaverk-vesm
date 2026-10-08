@@ -22,13 +22,12 @@ Takkinn sem slekkur á vekjaranum á að vera  hinum megin í herberginu frá ve
  
 ## Flæðirit
 
-![Flæðirit](flæðirit.png)
 
 ## Hönnun
 ## 2d teikning
 [Opna 2D SVG teikningu](ClosedBox%283%29.svg)
 ## 3d teikning 
-[Opna 3D STL teikningu](skjabox.stl)
+[Opna 3D STL teikningu](sjabox.stl)
 ## Kóðaskrár
 [SSD1309 kóðinn](ssd1309.py)
 [Takka kóðinn](takki.py)

@@ -1,19 +1,30 @@
+from mqtt_as import MQTTClient, config
+import asyncio
+from machine import Pin, ADC, I2C
+import time
+from lib.dfplayer import DFPlayer
+from ssd1309 import OLED_SSD1309
 
+# Mqtt connection and login information
+config["ssid"] = "TskoliVESM"
+config["wifi_pw"] = "Fallegurhestur"
+config["server"] = "10.201.48.125" 
+config["queue_len"] = 5
 
-# mqtt button test:
-# delete later
-'''
-async def led_test(client):
-    async for topic, message, _ in client.queue:
-        button_pressed = int(message.decode())
-        # If button is pressed flips led from on to off or vice versa
-        if button_pressed == 1:
-            print("button pressed!!!!!")
-            change_led_state = not led.value()
-            led.value(change_led_state)
-        asyncio.sleep_ms(30000)
-'''
-        
+TOPIC = "gdjsfsjdfdjdbxu"
+config["user"] = "gd"
+config["password"] = "Pass1234"
+
+# dfplayer variables
+df = DFPlayer(2) 
+df.init(tx=17, rx=16)  # tx á esp tengist í rx á mp3
+
+alarm_has_been_started = False
+
+# time variables
+year, month, day, hours, minutes, seconds, weekday, _ = time.localtime()
+
+alarm_has_been_started = False
 # Subscribes to the mqtt topic
 async def subscribe(client):
     while True:
@@ -21,12 +32,10 @@ async def subscribe(client):
         client.up.clear()
         # Topik-ið (eitt eða fleiri) sem á að gerast áskrifandi að
         await client.subscribe(TOPIC, 1)
-        
-        await client.subscribe(TOPIC_2, 1)
-    
+            
 async def alarm():
-    alarm_has_been_started = False
     while True:
+        global alarm_has_been_started
         year, month, day, hours, minutes, seconds, weekday, _ = time.localtime()
         
         # formatts the numbers to add a 0 at the start if needed
@@ -38,21 +47,12 @@ async def alarm():
             hours = "0" + hours
         
         # times at which the alarm plays
+        # hardcoded in, should not be hardcoded in actual use
         wakeup_times = ["7:30", "8:30", "9:30"]
         
-        
-        '''
-        async for topic, message, _ in client.queue:
-            button_pressed = int(message.decode())
-            # If button is pressed flips led from on to off or vice versa
-            if button_pressed == 1:
-                print("button pressed!!!!!")
-                change_led_state = not led.value()
-                led.value(change_led_state)
-            asyncio.sleep_ms(20)
-        '''
-        
-        #print(f"{hours}:{minutes}", "compared to: ", f"{wakeup_times[0]}")
+        alarm_has_been_started = False
+        # Checks if the time matches te alarm time and plays the alarm if so
+        print(f"{hours}:{minutes}", wakeup_times)
         
         if f"{hours}:{minutes}" in wakeup_times and alarm_has_been_started == False:
             alarm_has_been_started = True
@@ -61,14 +61,42 @@ async def alarm():
             await df.wait_available()
             await df.volume(10)
             await df.play(1, 1)
+            await asyncio.sleep_ms(60000)
+        
+        '''
+        async for topic, message, _ in client.queue:
+            button_pressed = int(message.decode())
+            # Turn off player if button is pressed:
+            if button_pressed == 1:
+                print("button pressed")
+                await df.stop()
+                # waits a minute before starting alarm again to
+                # make sure the alarm does not restart instantly
+                if alarm_has_been_started == True:
+                    alarm_has_been_started = False
+                    await asyncio.sleep_ms(20)
+            else:
+                await asyncio.sleep_ms(20)
+        '''
         await asyncio.sleep_ms(1000)
-    
-    async for topic, message, _ in client.queue:
-        button_pressed = int(message.decode())
-        # Turn off player if button is pressed:
-        if button_pressed == 1:
-            alarm_has_been_started = False
-            await df.stop()
+        
+        
+async def turn_off_alarm(client):
+    while True:
+        async for topic, message, _ in client.queue:
+            global alarm_has_been_started
+            button_pressed = int(message.decode())
+            print(f"button value : \"{button_pressed}\" ")
+            # Turn off player if button is pressed:
+            if str(button_pressed) == "1":
+                print("button pressed")
+                await df.stop()
+                # waits a minute before starting alarm again to
+                # make sure the alarm does not restart instantly
+                alarm_has_been_started = False
+                await asyncio.sleep_ms(1000)
+            else:
+                await asyncio.sleep_ms(50)
     
 
 async def screen():
@@ -96,12 +124,12 @@ async def screen():
         # Clear the display, draw something, then push to screen
                     
         oled.fill(0)
-        oled.text("-------------------------", 0, 16)
-        oled.text("-------------------------", 0, 48)
+        oled.text("  ------------  ", 0, 16)
+        oled.text("  ------------  ", 0, 48)
         oled.text(f"{hours}:{minutes}", 42, 32)
         oled.show()    
         
-        await asyncio.sleep_ms(30000)
+        await asyncio.sleep_ms(30000)    
 
 async def main(client):
     
@@ -112,6 +140,7 @@ async def main(client):
     asyncio.create_task(subscribe(client))
     asyncio.create_task(alarm())
     asyncio.create_task(screen())
+    asyncio.create_task(turn_off_alarm(client))
 
     while True:
         await asyncio.sleep_ms(0)

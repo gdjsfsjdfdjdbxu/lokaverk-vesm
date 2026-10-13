@@ -36,4 +36,5 @@ Verkefnið okkar var að búa til IoT-vekjaraklukku sem hjálpar notanda að vak
 ## Kóðaskrár
 - [SSD1309-kóðinn](https://github.com/gdjsfsjdfdjdbxu/lokaverk-vesm/blob/main/python_files/ssd1309.py)
 - [Takkakóðinn](https://github.com/gdjsfsjdfdjdbxu/lokaverk-vesm/blob/main/takki.py)
-- [Lokaverkefni.py](https://github.com/gdjsfsjdfdjdbxu/lokaverk-vesm/blob/main/Lokaverkefni.py)
+- [nicegui](https://github.com/gdjsfsjdfdjdbxu/lokaverk-vesm/blob/main/Lokaverkefni.py)
+- [vekjaraklukkan](python_files/alarm.py)

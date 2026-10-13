@@ -7,10 +7,8 @@ Verkefnið okkar var að búa til IoT-vekjaraklukku sem hjálpar notanda að vak
 
 ## Myndband af virkni
 
+https://github.com/user-attachments/assets/6ed70278-aee2-44b7-98ae-8473c8460dde
 
-
-
-https://github.com/user-attachments/assets/56192420-e5d6-4dcf-8796-f50aaa85549a
 
 
 ## Ljósmyndir:

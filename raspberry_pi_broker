@@ -1,3 +1,4 @@
+# Baseline code for connecting to the raspberry pi broker
 from mqtt_as import MQTTClient, config
 
 config["ssid"] = "TskoliVESM"

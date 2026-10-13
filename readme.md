@@ -9,7 +9,8 @@ Verkefnið okkar var að búa til IoT-vekjaraklukku sem hjálpar notanda að vak
 
 ## Ljósmyndir:
 
-## Vekjaraklukkan:<img width="250" height="333" alt="04818a1f-6dd3-4b74-8a31-39a3e8808a5e-2" src="https://github.com/user-attachments/assets/a5f9d01d-c156-44e6-a271-988948e9e366" />
+## Vekjaraklukkan:
+<img width="250" height="333" alt="04818a1f-6dd3-4b74-8a31-39a3e8808a5e-2" src="https://github.com/user-attachments/assets/a5f9d01d-c156-44e6-a271-988948e9e366" />
 <img width="250" height="333" alt="8d6d52fd-17e3-4e85-b69d-f4e78700ee69-2" src="https://github.com/user-attachments/assets/850e8daa-9b7f-4ce2-81db-d55f02ad5654" />
 <img width="250" height="333" alt="86d1d0ce-a326-47d3-b931-6d0da0e8ab41-4" src="https://github.com/user-attachments/assets/04492c5d-acc4-46bc-a697-1fc9f7083e5b" />
 

@@ -34,6 +34,6 @@ Verkefnið okkar var að búa til IoT-vekjaraklukku sem hjálpar notanda að vak
 ## 3D teikning 
 [Opna 3D STL teikningu](sjabox.stl)
 ## Kóðaskrár
-- [SSD1309-kóðinn](https://github.com/gdjsfsjdfdjdbxu/lokaverk-vesm/blob/main/ssd1309.py)
+- [SSD1309-kóðinn](https://github.com/gdjsfsjdfdjdbxu/lokaverk-vesm/blob/main/python_files/ssd1309.py)
 - [Takkakóðinn](https://github.com/gdjsfsjdfdjdbxu/lokaverk-vesm/blob/main/takki.py)
 - [Lokaverkefni.py](https://github.com/gdjsfsjdfdjdbxu/lokaverk-vesm/blob/main/Lokaverkefni.py)

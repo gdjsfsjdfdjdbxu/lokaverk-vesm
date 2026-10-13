@@ -9,12 +9,15 @@ Verkefnið okkar var að búa til IoT-vekjaraklukku sem hjálpar notanda að vak
 
 ## Ljósmyndir:
 
-## Vekjaraklukkan:
+## Vekjaraklukkan:<img width="250" height="333" alt="04818a1f-6dd3-4b74-8a31-39a3e8808a5e-2" src="https://github.com/user-attachments/assets/a5f9d01d-c156-44e6-a271-988948e9e366" />
+<img width="250" height="333" alt="8d6d52fd-17e3-4e85-b69d-f4e78700ee69-2" src="https://github.com/user-attachments/assets/850e8daa-9b7f-4ce2-81db-d55f02ad5654" />
+<img width="250" height="333" alt="86d1d0ce-a326-47d3-b931-6d0da0e8ab41-4" src="https://github.com/user-attachments/assets/04492c5d-acc4-46bc-a697-1fc9f7083e5b" />
+
 
 ## Takkinn:
 
-<img width="250" height="333" alt="958e581f-4cd3-4544-8683-dde376de127d-1" src="https://github.com/user-attachments/assets/60a4e34e-2d73-40e1-83ca-16f057cbdb6c" />
-<img width="250" height="333" alt="efed5fb9-73c0-4454-baa4-5a776c81d7a7" src="https://github.com/user-attachments/assets/8814140c-a229-4ece-955b-6555991050bc" />
+<img width="250" height="333" alt="5cbf914c-c36c-4c7b-9022-b188c42389bb-4" src="https://github.com/user-attachments/assets/2a517eed-50ec-48fe-ad6c-9d95766feca0" />
+<img width="250" height="333" alt="fd880fb9-99ba-4ce4-9798-cf3383414b82-2" src="https://github.com/user-attachments/assets/517f9028-66fb-4914-aabf-eeb77fe0fa54" />
 
 ## Efni og íhlutir:
  - 2 × esp32-s3
